@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72cd8884-0214-442a-bc4f-da1e227773ee" name="Changes" comment="init 2" />
+    <list default="true" id="72cd8884-0214-442a-bc4f-da1e227773ee" name="Changes" comment="init 2">
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/Info.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Info.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Info.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -55,7 +66,7 @@
       <updated>1656421632781</updated>
       <workItem from="1656421634944" duration="5167000" />
       <workItem from="1656488576848" duration="612000" />
-      <workItem from="1656495139772" duration="2247000" />
+      <workItem from="1656495139772" duration="7722000" />
     </task>
     <task id="LOCAL-00001" summary="init 2">
       <created>1656497982612</created>
@@ -64,7 +75,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656497982612</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init 2">
+      <created>1656498117545</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656498117545</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init 2">
+      <created>1656498130691</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656498130691</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
