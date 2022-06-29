@@ -9,7 +9,8 @@ class Info extends Component {
             ort: "Test",
             name: "John Doe",
             count: 0,
-            elements: []
+            elements: [],
+            message: ""
         }
     };
 
@@ -28,30 +29,52 @@ class Info extends Component {
             })
         })
 
-    }
+    };
+
+    changeMessage(event) {
+        this.setState({
+            message: event.target.value
+        })
+    };
 
     render() {
         let updateName = ""
-        if (this.state.name != "John Doe") {
-            updateName = <div><p>Name updated <b>{this.state.count}x</b> :)</p>
-            </div>
+        let classy = ""
+        if (this.state.count > 0) {
+            updateName =
+                <div>
+                    <p>Name updated <b>{this.state.count}x</b> :)</p>
+                </div>;
         }
+        /*
+        if (this.state.count % 2 == 0) {
+            classy = "button"
+        } else {
+            classy = "buttonChange"
+        }
+        */
+        classy = this.state.count % 2 == 0 ? "button" : "buttonChange"
 
         let list = this.state.elements.map(
             (el) => {
                 return <li key={el.num}
                            style={{'background-color': el.gender == 'male' ? 'lightblue' : 'pink'}}>
-                            {el.num} {el.oldName}
-                        </li>
+                    {el.num} {el.oldName}
+                </li>
             }
         )
         return (
             <div id={"divInfo"}>
                 <h1>The Info</h1>
+                <input type="text" value={this.state.message}
+                       onChange={this.changeMessage.bind(this)}/>
+                <p>{this.state.message}</p>
                 <p>Test aus Info: {this.state.ort}</p>
                 <p>Name aus RandomUser: {this.state.name}</p>
                 {updateName}
-                <button onClick={this.changeName3.bind(this)}>Get Name</button>
+                <button onClick={this.changeName3.bind(this)}
+                        className={classy}>Get Name
+                </button>
                 <ul>
                     {list}
                 </ul>

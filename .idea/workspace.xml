@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72cd8884-0214-442a-bc4f-da1e227773ee" name="Changes" comment="init 2">
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/Info.css" afterDir="false" />
+    <list default="true" id="72cd8884-0214-442a-bc4f-da1e227773ee" name="Changes" comment="until Vid 83">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Info.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Info.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/components/Info.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Info.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +28,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,22 +39,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "Settings.JavaScript",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.1.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Settings.JavaScript&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.1.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,7 +65,7 @@
       <updated>1656421632781</updated>
       <workItem from="1656421634944" duration="5167000" />
       <workItem from="1656488576848" duration="612000" />
-      <workItem from="1656495139772" duration="7722000" />
+      <workItem from="1656495139772" duration="10273000" />
     </task>
     <task id="LOCAL-00001" summary="init 2">
       <created>1656497982612</created>
@@ -89,7 +88,28 @@
       <option name="project" value="LOCAL" />
       <updated>1656498130691</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="until Vid 83">
+      <created>1656504194759</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656504194759</updated>
+    </task>
+    <task id="LOCAL-00005" summary="until Vid 83">
+      <created>1656504252132</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656504252132</updated>
+    </task>
+    <task id="LOCAL-00006" summary="until Vid 83">
+      <created>1656504293670</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656504293670</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,7 +128,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="init 2" />
+    <MESSAGE value="until Vid 83" />
+    <option name="LAST_COMMIT_MESSAGE" value="until Vid 83" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
